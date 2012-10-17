@@ -47,12 +47,14 @@ chrome.browserAction.onClicked.addListener(function (t) {
     customDomain = localStorage['subdomain'] + '.tenderapp.com/';
   }
 
-  if (customDomain.indexOf('/') !== -1) {
-    slashLength = customDomain.indexOf('/');
-    customDomain = customDomain.substr(0, slashLength);
+  if (customDomain !== undefined) {
+    if (customDomain.indexOf('/') !== -1) {
+      slashLength = customDomain.indexOf('/');
+      customDomain = customDomain.substr(0, slashLength);
+    }
+    
+    chrome.tabs.create({
+      "url": 'http://' + customDomain + '/dashboard/pending'
+    });
   }
-  
-  chrome.tabs.create({
-    "url": 'http://' + customDomain + '/dashboard/pending'
-  });
 });
