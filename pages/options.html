@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tender Counter Options</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <article>
+        <h1>Tender Counter Settings</h1>
+        <section class="share-buttons">
+            <form id="settings" action="." class="form-horizontal">
+
+                <legend>Domain Information</legend>
+
+                <div class="control-group">
+                    <label class="control-label" for="subdomain">Default Tender URL</label>
+                    <div class="input-prepend input-append input">
+                        <span class="add-on">http://</span><input name="subdomain" value="" type="text" id="subdomain" class="input-large"><span class="add-on">.tenderapp.com</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="customdomain">Custom Domain</label>
+                    <div class="input-prepend input">
+                        <span class="add-on">http://</span><input name="customdomain" value="" type="text" id="customdomain" class="input-xlarge">
+                    </div>
+                </div>
+
+                <legend>API Key Settings</legend>
+
+                <div class="control-group">
+                    <label class="control-label" for="apikey">API Key</label>
+                    <div class="controls">
+                        <input name="apikey" value="" type="text" id="apikey" class="input-xlarge">
+                    </div>
+                </div>
+
+                <div class="control-group action">
+                    <div class="controls">
+                        <input class="btn primary" name="submit" value="Save" type="submit" id="submit">
+                    </div>
+                </div>
+            </form>
+            
+        </section>
+</article>
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/options.js"></script>
+</body>
+</html>

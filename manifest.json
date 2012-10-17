@@ -1,0 +1,22 @@
+{
+  "name": "Tender Count",
+  "manifest_version": 2,
+  "description": "Displays the number of pending discussions in Tender.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "http://api.tenderapp.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "img/icon-32.png",
+    "default_title": "Tender Count"
+  },
+  "options_page": "pages/options.html",
+  "background": {
+    "page": "pages/background.html"
+  },
+  "icons": {
+    "32"  : "img/icon-32.png",
+    "48"  : "img/icon-48.png"
+  }
+}
