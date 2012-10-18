@@ -29,7 +29,7 @@ function processMessages() {
   unreadCount = res.total;
 
   chrome.browserAction.setTitle({"title": "Tender Count"});
-  chrome.browserAction.setIcon({"path": "../img/icon-32.png"});
+  chrome.browserAction.setIcon({"path": "../img/tabicon.png"});
 
   if (unreadCount > 0) {
     chrome.browserAction.setBadgeBackgroundColor({

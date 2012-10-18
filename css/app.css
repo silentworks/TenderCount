@@ -15,6 +15,10 @@ section {
     border-top: 1px solid #ddd;
 }
 
+section p {
+    display: none;
+}
+
 h2 {
     float: left;
     width: 180px;

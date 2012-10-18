@@ -13,6 +13,11 @@
 					localStorage[name] = value;
 				}
 			});
+
+			$('.alert').slideDown('fast');
+			setTimeout(function() {
+				$('.alert').slideUp('fast');
+			}, 3000);
 		});
 
 		/* Load Settings */
