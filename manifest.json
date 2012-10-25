@@ -2,7 +2,7 @@
   "name": "Tender Count",
   "manifest_version": 2,
   "description": "Displays the number of pending discussions in Tender.",
-  "version": "1.0",
+  "version": "1.0.1",
   "permissions": [
     "tabs",
     "http://api.tenderapp.com/*"
