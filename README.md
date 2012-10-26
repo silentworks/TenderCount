@@ -6,4 +6,6 @@ You can enter your Default [Tender][] Url and your Custom Domain. The icon for [
 
 This Extension was made possible with the help of the D3i Team.
 
+Get it from Chrome Store <https://chrome.google.com/webstore/detail/tender-count/epimebmgmofomfiphgeaainhkiiacopd>
+
 If you use Safari then checkout - <https://github.com/oliverwaters/TenderCount>
